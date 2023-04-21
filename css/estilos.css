@@ -1,0 +1,51 @@
+header{
+    display: flex;
+    flex-direction: row;
+    min-width: 99%;
+    justify-content: space-between;
+    gap: 100px;
+    align-items:center;
+    background-color: white;
+    box-shadow: 0 5px 3px skyblue;
+    z-index: 1;
+    position: fixed;
+    left: 0px;
+   
+}
+.goo{
+    width: 100px;
+}
+#busqueda{
+    width: 300px;
+    height: 30px;
+    border-radius: 50px;
+    
+}
+.search{
+    border-radius: 50px;
+    border: 1px black;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+.seti{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.acce{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;}
+.arti{
+    padding-top: 150px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+}
